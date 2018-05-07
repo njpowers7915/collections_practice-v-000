@@ -22,8 +22,9 @@ end
 def kesha_maker(array)
   new_array = []
   array.each do |i|
-    i.split[2] = "$"
-    new_array << i.join
+    x = i.split
+    x[2] = "$"
+    new_array << x.join
   end
 end
 

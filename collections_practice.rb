@@ -16,7 +16,8 @@ def swap_elements(array)
 end
 
 def reverse_array(array)
-  array.collect.reverse
+  array.collect do |i|
+    
 end
 
 def kesha_maker(string)

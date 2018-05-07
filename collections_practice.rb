@@ -11,14 +11,14 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  index = 1
-  index_2 = 2
   def swap_elements_from_to(array, index_1, index_2)
     x = array[index_1]
     y = array[index_2]
     array[index_1] = y
     array[index_2] = x
+    array
   end
+  swap_elements_from_to(array, 1, 2)
 end
 
 def reverse_array(array)

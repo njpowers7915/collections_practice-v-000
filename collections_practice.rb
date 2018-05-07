@@ -16,6 +16,7 @@ def swap_elements(array)
   def swap_elements_from_to(array, index, index_2)
     array.collect do |i|
       if i == array[index]
+  end
 end
 
 def reverse_array(array)

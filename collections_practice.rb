@@ -42,5 +42,12 @@ end
 def add_s(array)
   new_array = []
   array.each_with_index do |i,1|
-    i << "s" if i != 1
+    if i != 1
+      i << "s"
+      new_array << i
+    else
+      new_array << i
+    end
+  end
+  new_array
 end

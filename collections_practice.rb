@@ -26,6 +26,7 @@ def kesha_maker(array)
     x[2] = "$"
     new_array << x.join
   end
+  new_array
 end
 
 def find_a(array)

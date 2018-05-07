@@ -15,7 +15,6 @@ def swap_elements(array)
   index_2 = 2
   def swap_elements_from_to(array, index, index_2)
     array.collect do |i|
-      if i == array[index]
   end
 end
 

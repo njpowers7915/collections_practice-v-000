@@ -41,5 +41,6 @@ end
 
 def add_s(array)
   new_array = []
-  array.
+  array.each_with_index do |i,1|
+    i << "s" if i != 1
 end
